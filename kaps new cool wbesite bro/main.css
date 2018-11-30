@@ -1,0 +1,237 @@
+body {
+    background: url("") no-repeat center center fixed;-webkit-background-size: cover;
+
+    
+}
+
+.container {
+    max-width: 1060px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.37)
+}
+
+
+
+figcaption {
+    background: rgb(99, 116, 223);
+    width: 100%;
+    font-family: cursive;
+    padding: 5px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    padding: 5px;
+    height: auto;
+}
+
+h1 {
+    text-align: left;
+    font-weight: 650;
+    font-size: 2.5em;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+a {
+    background: rgb(59, 209, 255);
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 50px;
+    color: #212121;
+}
+
+a:hover {
+    background: #212121;
+    color: rgba(23, 173, 184, 0.404);
+}
+
+        /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+
+
+        /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+        
+        .row {
+            border: 3px solid red;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 3px dashed rebeccapurple;
+        }
+        
+        @media only screen {
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+        }
+    /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+        
+        body {
+            background: ivory;
+        }
+        
+        .row {
+            border: 3px solid red;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 3px dashed rebeccapurple;
+        }
+        /* For mobile phones: */
+        
+        [class*="col-"] {
+            width: 100%;
+        }
+        
+        @media only screen and (min-width: 630px) {
+            /* For tablets: */
+            body {
+                background: #CCCCCC;
+            }
+            .col-m-1 {
+                width: 8.33%;
+            }
+            .col-m-2 {
+                width: 16.66%;
+            }
+            .col-m-3 {
+                width: 25%;
+            }
+            .col-m-4 {
+                width: 33.33%;
+            }
+            .col-m-5 {
+                width: 41.66%;
+            }
+            .col-m-6 {
+                width: 50%;
+            }
+            .col-m-7 {
+                width: 58.33%;
+            }
+            .col-m-8 {
+                width: 66.66%;
+            }
+            .col-m-9 {
+                width: 75%;
+            }
+            .col-m-10 {
+                width: 83.33%;
+            }
+            .col-m-11 {
+                width: 91.66%;
+            }
+            .col-m-12 {
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (min-width: 900px) {
+            /* For desktop: */
+            body {
+                background: #888888;
+            }
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+            #left-nav {
+                padding-left: 4%;
+            }
+            #right-nav {
+                padding-right: 4%;
+            }
+        }
